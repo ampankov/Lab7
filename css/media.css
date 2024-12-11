@@ -1,0 +1,104 @@
+@media (max-width: 1200px) {
+   .pic1{
+      position: relative;
+   }
+  .pic2{
+      position: absolute;
+      left: 50px;
+      top:-182px;
+      z-index:1;
+   }
+}
+@media (max-width: 991.33px) {
+    .first-tittle{
+     font-size: 40px;
+    }
+    .second-tittle{
+     font-size: 18px;
+    }
+    .footer{
+     height: 250px;
+    }
+    .header{
+     height: 100px;
+     margin-left: 25px;
+    }
+    .contacts{
+     float: right;
+     margin-right: 95px;
+    }
+    .bottom-text{
+     margin-left: 20px;
+    }
+    .header-text{
+        margin-left: 20px;
+    }
+    .pic1{
+        position: relative;
+     }
+    .pic2{
+        position: absolute;
+        left: 65px;
+        top:-89px;
+        z-index:1;
+     }
+     .card{
+      width:  20rem;
+     }
+ }
+ 
+ @media (max-width: 768px) {
+
+   .ihouse{
+      font-size: 20px;
+   }
+  .header{
+     height: 50px;
+  }
+  .bird{
+     display: none;
+  }
+  .header-text{
+     margin-left: 35%;
+  }
+  .cart{
+     float: inline-end;
+     height: 30px;
+     width: 30px;    
+  }
+  .pic1{
+    position: relative;
+ }
+ 
+ .pic2 {
+   position: absolute;
+   left: 65px;
+   top: -89px;
+   z-index: 1;
+
+}
+ .logo{
+    margin-top: 25px;
+ }
+ .card{
+   width: 80%;
+ }
+ .rep{
+   font-size: 30px;
+   font-family: raleway;
+   padding: 0;
+ }
+.footer{
+   height: 350px;
+}
+.contacts{
+   float:none;
+}
+.social{
+   margin-top: 15px;
+   display: flex;
+   justify-content: space-between;
+   width: 200px;
+   height: 25px;
+}
+}
