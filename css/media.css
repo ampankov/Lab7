@@ -102,3 +102,20 @@
    height: 25px;
 }
 }
+@media (max-width: 567.33px) {
+   .pic1{
+      position: relative;
+   }
+  .pic2{
+      position: absolute;
+      left: 60px;
+      top:-128px;
+      z-index:1;
+   }
+   .bottom-text{
+      margin-left: 0;
+     }
+   .footer{
+      height: 500px;
+   }
+}
